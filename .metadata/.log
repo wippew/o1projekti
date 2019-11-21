@@ -32,3 +32,136 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 1 0 2019-11-21 17:39:09.325
+!MESSAGE Timeout while resolving hyperlink in C:\Users\Victor\o12019projekti_v2\Adventure\o1\adventure\Adventure.scala at: offset: 826, length: 0
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 18:04:37.411
+!MESSAGE Throwable during asyncExec
+!STACK 0
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:44:50.560
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:44:51.091
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:44:54.731
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:44:55.263
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:46:29.634
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:46:30.165
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2019-11-21 20:47:45.481
+!MESSAGE Throwable during asyncExec
+!STACK 0
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)

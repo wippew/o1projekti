@@ -34,6 +34,8 @@ class Player(startingArea: Area) {
     ret
   }
   
+  def setLocation(newLocation: Area) = currentLocation = newLocation
+  
   /** Attempts to move the player in the given direction. This is successful if there
     * is an exit from the player's current location towards the direction name. Returns
     * a description of the result: "You go DIRECTION." or "You can't go DIRECTION." */

@@ -1,0 +1,16 @@
+package o1.adventure
+
+class StudyRoom(name: String, desc: String) extends Area(name: String, desc: String){
+  
+  
+  def chooseTask(str: String) = {
+    var temp = str.toLowerCase();
+    if ( temp == "maths") {
+      println("maths")
+    } else if (temp == "writing") {
+      println("Writing")
+    }
+  }
+  
+  
+}

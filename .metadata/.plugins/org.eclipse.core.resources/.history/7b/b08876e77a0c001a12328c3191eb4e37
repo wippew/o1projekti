@@ -1,0 +1,22 @@
+package o1.adventure
+
+class StudyRoom(name: String, desc: String) extends Area(name: String, desc: String){
+  
+  
+  this.reactions += {
+      case keyEvent: KeyPressed =>
+        if (keyEvent.source == this.input && keyEvent.key == Key.Enter && !this.game.isOver) {
+          val command = this.input.text.trim
+          if (command.nonEmpty) {
+            this.input.text = ""
+            this.playTurn(command)
+          }
+        }
+    }
+  
+  def chooseTask() = {
+    
+  }
+  
+  
+}

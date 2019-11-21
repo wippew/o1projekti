@@ -22,3 +22,94 @@
 2019-11-21 13:18:22,475  WARN [main] - ScalaProject - Project Adventure runs on platform default installation.
 2019-11-21 13:18:22,647  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
 2019-11-21 13:18:22,647  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:38:23,762 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 17:38:23,762 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 17:38:23,778 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 17:38:57,558  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:38:57,558  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:39:01,417  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:39:01,417  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:39:08,245  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:39:08,245  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:39:55,714  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:39:55,714  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:40:36,713  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:40:36,713  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:40:42,681  WARN [Worker-17] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:40:42,681  WARN [Worker-17] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:41:19,836  WARN [Worker-18] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:41:19,836  WARN [Worker-18] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:42:06,350  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:42:06,350  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:42:28,521  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:42:28,521  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:42:53,239  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:42:53,239  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:46:17,573  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:46:17,573  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:47:09,165  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:47:09,165  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:48:54,317  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:48:54,317  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 17:48:57,520  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 17:48:57,520  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:00:12,265  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:00:12,265  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:02:40,650  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:02:40,650  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:04:37,755 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 18:06:29,093 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 18:06:29,093 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 18:07:32,872  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:07:32,872  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:08:10,199  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:08:10,199  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:08:19,495 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 18:08:19,495 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 18:08:19,495 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 18:08:23,261  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:08:23,261  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:12:36,546  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:12:36,546  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:12:54,202  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:12:54,202  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:13:40,059  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:13:40,059  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:16:55,982  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:16:55,982  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:16:59,482  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:16:59,482  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:17:23,310  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:17:23,310  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:20:10,959  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:20:10,959  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:20:59,817  WARN [Worker-23] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:20:59,817  WARN [Worker-23] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:22:04,279  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:22:04,279  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:22:35,169  WARN [Worker-23] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:22:35,169  WARN [Worker-23] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 18:22:47,637  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 18:22:47,637  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.

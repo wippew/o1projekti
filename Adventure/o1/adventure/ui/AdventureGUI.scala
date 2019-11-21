@@ -4,6 +4,7 @@ import scala.swing._
 import scala.swing.event._
 import javax.swing.UIManager
 import o1.adventure.Adventure
+import o1.adventure._
 
 
 ////////////////// NOTE TO STUDENTS //////////////////////////
@@ -47,7 +48,12 @@ object AdventureGUI extends SimpleSwingApplication {
     val input = new TextField(40) {
       minimumSize = preferredSize
     }
+    
+    val correctBox = new TextField(20) {
+      
+    }
     this.listenTo(input.keys)
+    
     val turnCounter = new Label
 
     // Events:
@@ -89,7 +95,7 @@ object AdventureGUI extends SimpleSwingApplication {
     // Set up the GUI’s initial state:
 
     this.title = game.title
-    this.updateInfo(this.game.welcomeMessage)
+    this.updateInfo("GAME BEGINS")
     this.location = new Point(50, 50)
     this.minimumSize = new Dimension(200, 200)
     this.pack()
@@ -97,14 +103,26 @@ object AdventureGUI extends SimpleSwingApplication {
 
 
     def playTurn(command: String) = {
-      val turnReport = this.game.playTurn(command)
-      if (this.player.hasQuit) {
-        this.dispose()
+      if (this.game.player.location.name == "Study room") {
+        var ret = this.game.studyRoom.chooseTask(command)
+        if ( ret == "maths" ) {
+          this.title = "The Study Room of maths"
+          this.updateInfo("you are about to be rekt")
+          this.locationInfo.text = ("Solve the equation 1 + 1 = 2")
+          
+        }
       } else {
-        this.updateInfo(turnReport)
-        this.input.enabled = !this.game.isOver
+        val turnReport = this.game.playTurn(command)
+        if (this.player.hasQuit) {
+          this.dispose()
+        } else {
+          this.updateInfo(turnReport)
+          this.input.enabled = !this.game.isOver
+        }
       }
     }
+    
+    
 
     def updateInfo(info: String) = {
       if (!this.game.isOver) {
