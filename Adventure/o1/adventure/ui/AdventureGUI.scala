@@ -101,17 +101,27 @@ object AdventureGUI extends SimpleSwingApplication {
     this.pack()
     this.input.requestFocusInWindow()
 
-
+    
+    
+    var InStudyRoom: Boolean = true
+    var playMathGame1: Boolean = true
     def playTurn(command: String) = {
-      if (this.game.player.location.name == "Study room") {
-        var ret = this.game.studyRoom.chooseTask(command)
-        if ( ret == "maths" ) {
-          this.title = "The Study Room of maths"
-          this.updateInfo("you are about to be rekt")
-          this.locationInfo.text = ("Solve the equation 1 + 1 = 2")
-          
-        }
-      } else {
+      if (InStudyRoom  && this.game.player.location.name == "Study room" && playMathGame1) {
+          var ret = command.toLowerCase()
+          val retLocation = this.player.location
+          println("asd")
+          println(ret)
+          if ( ret == "maths" ) {            
+            this.title = "The Study Room of maths"
+            this.turnOutput.text = "you are about to be rekt"
+            this.locationInfo.text = ("Solve the equation 1 + 1")            
+          } else if (ret == "2") {
+            this.turnOutput.text = "CORRECT"
+          } else {
+            this.turnOutput.text = "WRONG"
+          }
+      }
+      
         val turnReport = this.game.playTurn(command)
         if (this.player.hasQuit) {
           this.dispose()
@@ -119,18 +129,17 @@ object AdventureGUI extends SimpleSwingApplication {
           this.updateInfo(turnReport)
           this.input.enabled = !this.game.isOver
         }
-      }
     }
     
     
 
     def updateInfo(info: String) = {
-      if (!this.game.isOver) {
-        this.turnOutput.text = info
-      } else {
-        this.turnOutput.text = info + "\n\n" + this.game.goodbyeMessage
-      }
-      this.locationInfo.text = this.player.location.fullDescription
+//      if (!this.game.isOver) {
+//        this.turnOutput.text = info
+//      } else {
+//        this.turnOutput.text = info + "\n\n" + this.game.goodbyeMessage
+//      }
+this.locationInfo.text = this.player.location.fullDescription
       this.turnCounter.text = "Turns played: " + this.game.turnCount
     }
 

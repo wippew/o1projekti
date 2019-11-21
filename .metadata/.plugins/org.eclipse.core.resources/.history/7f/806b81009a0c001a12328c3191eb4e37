@@ -1,0 +1,5 @@
+package o1.adventure
+
+object math1 extends App {
+  
+}

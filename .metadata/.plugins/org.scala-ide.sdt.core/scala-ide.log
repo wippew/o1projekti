@@ -270,3 +270,831 @@ scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a c
 2019-11-21 20:58:12,211  WARN [Worker-25] - ScalaProject - Project Adventure runs on platform default installation.
 2019-11-21 20:58:24,789  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
 2019-11-21 20:58:24,789  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:00:33,731  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:00:33,731  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:01:21,041  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:01:21,041  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:01:34,510  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:01:34,510  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:03:11,852  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:03:11,852  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:03:17,258  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:03:17,258  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:03:20,727  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:03:20,727  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:03:24,977  WARN [Worker-26] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:03:24,977  WARN [Worker-26] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:14,740  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:14,740  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:21,146  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:21,146  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:24,459  WARN [Worker-26] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:24,459  WARN [Worker-26] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:28,646  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:28,646  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:37,255  WARN [Worker-28] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:37,255  WARN [Worker-28] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:04:38,942  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:04:38,942  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:05:46,409  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:05:46,409  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:06:01,314  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:06:01,314  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:06:11,641  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:06:11,641  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:06:21,234  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:06:21,234  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:07:02,076  WARN [Worker-28] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:07:02,076  WARN [Worker-28] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:07:11,998  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:07:11,998  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:07:16,763  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:07:16,763  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:07:29,950  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:07:29,950  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:09:33,721  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:09:33,721  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:09:48,924  WARN [Worker-28] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:09:48,924  WARN [Worker-28] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:10:06,361  WARN [Worker-28] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:10:06,361  WARN [Worker-28] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:10:58,501  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:10:58,501  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:11:21,059  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:11:21,059  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:12:23,383  WARN [Worker-31] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:12:23,383  WARN [Worker-31] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:15:26,286  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:15:26,286  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:16:43,045  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:16:43,045  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:17:32,137  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:17:32,137  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:18:43,988  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:18:43,988  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:19:04,503  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:19:04,503  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:19:28,223  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:19:28,223  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:20:36,877  WARN [Worker-28] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:20:36,877  WARN [Worker-28] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:43:06,255 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:09,380 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:32,598 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:33,129 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:43,472 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:45,066 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:45,597 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:46,128 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:54,987 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:43:58,518  WARN [Worker-33] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:43:58,518  WARN [Worker-33] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:43:59,222 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:44:16,768 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 21:44:16,768 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 21:44:16,768 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 21:44:20,690  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:44:20,690  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:44:41,861  WARN [Worker-33] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:44:41,861  WARN [Worker-33] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:45:34,444 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 21:45:48,538  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:45:48,538  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:45:55,319  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:45:55,319  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:52:28,325  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:52:28,325  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:54:21,227  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:54:21,227  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:54:45,935  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:54:45,935  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:55:14,660  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:55:14,660  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 21:55:19,410  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 21:55:19,410  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:02:13,960  WARN [main] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:02:13,960  WARN [main] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:02:14,101  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:02:14,101  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:03:16,286  WARN [Java indexing] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:03:16,286  WARN [Java indexing] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:03:16,714  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:03:16,714  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:03:36,245  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:03:36,245  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:03:39,385  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:03:39,385  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:04:32,383  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:04:32,383  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:04:40,617  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:04:40,617  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:04:51,007 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value locationInfo) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalDone(Global.scala:348)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5611)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2452)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$98(Typers.scala:5511)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typerWithLocalContext$1(Typers.scala:487)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:487)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInAnyMode$1(Typers.scala:5546)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5553)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5661)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIf$1(Typers.scala:4377)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5512)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInAnyMode$1(Typers.scala:5546)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5553)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2452)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$98(Typers.scala:5511)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typerWithLocalContext$1(Typers.scala:487)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:487)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInAnyMode$1(Typers.scala:5546)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5553)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.transformedOrTyped(Typers.scala:5801)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDefDef(Typers.scala:2283)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5501)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1807)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5502)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDocDef(Typers.scala:149)
+	at org.scalaide.core.internal.compiler.InteractiveScaladocAnalyzer$$anon$1.scala$tools$nsc$doc$ScaladocAnalyzer$ScaladocTyper$$super$typedDocDef(ScaladocGlobalCompatibilityTrait.scala:10)
+	at scala.tools.nsc.doc.ScaladocAnalyzer$ScaladocTyper.typedDocDef(ScaladocAnalyzer.scala:52)
+	at scala.tools.nsc.doc.ScaladocAnalyzer$ScaladocTyper.typedDocDef$(ScaladocAnalyzer.scala:31)
+	at org.scalaide.core.internal.compiler.InteractiveScaladocAnalyzer$$anon$1.typedDocDef(ScaladocGlobalCompatibilityTrait.scala:10)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5528)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInAnyMode$1(Typers.scala:5546)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5553)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5202)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5505)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5646)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1327)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1327)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1320)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:657)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$7(Global.scala:572)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$6(Global.scala:568)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$6$adapted(Global.scala:568)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:568)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-11-21 22:04:53,976  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:04:53,976  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:04:58,898 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalDone(Global.scala:348)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5611)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedType(Typers.scala:5712)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedType(Typers.scala:5715)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDefImpl(Typers.scala:2034)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDef(Typers.scala:2020)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedDefDef$6(Typers.scala:2256)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedDefDef$5(Typers.scala:2256)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDefDef(Typers.scala:2256)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5501)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1807)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5502)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDocDef(Typers.scala:149)
+	at org.scalaide.core.internal.compiler.InteractiveScaladocAnalyzer$$anon$1.scala$tools$nsc$doc$ScaladocAnalyzer$ScaladocTyper$$super$typedDocDef(ScaladocGlobalCompatibilityTrait.scala:10)
+	at scala.tools.nsc.doc.ScaladocAnalyzer$ScaladocTyper.typedDocDef(ScaladocAnalyzer.scala:52)
+	at scala.tools.nsc.doc.ScaladocAnalyzer$ScaladocTyper.typedDocDef$(ScaladocAnalyzer.scala:31)
+	at org.scalaide.core.internal.compiler.InteractiveScaladocAnalyzer$$anon$1.typedDocDef(ScaladocGlobalCompatibilityTrait.scala:10)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5528)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInAnyMode$1(Typers.scala:5546)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5553)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5650)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3075)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3220)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5202)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5505)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5552)
+	at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5589)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedInternal(Typers.scala:5619)
+	at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5563)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5567)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5646)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1327)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1327)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1320)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:657)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$7(Global.scala:572)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$6(Global.scala:568)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$6$adapted(Global.scala:568)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:568)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-11-21 22:05:02,632  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:02,632  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:05:10,272  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:10,272  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:05:11,960  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:11,960  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:05:18,334  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:18,334  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:05:45,880  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:45,880  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:05:52,692  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:05:52,692  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:06:19,609  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:06:19,609  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:06:20,312 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:06:20,312 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:06:20,312 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:06:21,843  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:06:21,843  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:06:27,671  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:06:27,671  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:06:34,436  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:06:34,436  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:06:47,451  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:06:47,451  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:07:09,013  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:07:09,013  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:07:23,653  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:07:23,653  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:07:44,465  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:07:44,465  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:09:02,227  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:09:02,227  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:09:21,102  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:09:21,102  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:09:38,288  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:09:38,288  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:10:35,031  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:10:35,031  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:11:04,186  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:11:04,186  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:11:07,655  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:11:07,655  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:11:13,889  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:11:13,889  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:12:21,572  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:12:21,572  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:12:53,461  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:12:53,461  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:13:03,070  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:13:03,070  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:13:42,756  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:13:42,756  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:13:59,229  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:13:59,229  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:14:06,026  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:14:06,026  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:15:41,294  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:15:41,294  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:15:57,801  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:15:57,801  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:16:14,675  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:16:14,675  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:17:03,267  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:17:03,267  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:17:52,296  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:17:52,296  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:17:57,296  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:17:57,296  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:18:00,671  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:18:00,671  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:18:08,811  WARN [Worker-35] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:18:08,811  WARN [Worker-35] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:18:14,999  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:18:14,999  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:18:35,326 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:18:35,326 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:18:35,326 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:19:46,839  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:19:46,839  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:20:19,861  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:20:19,861  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:20:34,517  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:20:34,517  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:22:05,810  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:22:05,810  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:22:14,575  WARN [Worker-39] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:22:14,575  WARN [Worker-39] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:22:23,153  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:22:23,153  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:23:25,228  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:23:25,228  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:23:37,212  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:23:37,212  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:24:02,180  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:24:02,180  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:24:17,726  WARN [Worker-36] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:24:17,726  WARN [Worker-36] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:25:35,391  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:25:35,391  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:25:50,843  WARN [Worker-31] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:25:50,843  WARN [Worker-31] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:26:03,562  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:26:03,562  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:26:38,279  WARN [Worker-30] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:26:38,279  WARN [Worker-30] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:26:42,107  WARN [Worker-33] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:26:42,107  WARN [Worker-33] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:26:54,497  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:26:54,497  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:27:25,074  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:27:25,074  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:27:40,324  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:27:40,324  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:17,306  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:17,306  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:29,415  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:29,415  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:37,337  WARN [Worker-37] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:37,337  WARN [Worker-37] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:46,930  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:46,930  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:50,586  WARN [Worker-29] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:50,586  WARN [Worker-29] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:28:53,305  WARN [Worker-30] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:28:53,305  WARN [Worker-30] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:30:28,129  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:30:28,129  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:30:33,145  WARN [Worker-32] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:30:33,145  WARN [Worker-32] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:30:53,941  WARN [Worker-37] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:30:53,941  WARN [Worker-37] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:31:26,127  WARN [Worker-33] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:31:26,127  WARN [Worker-33] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:31:31,799  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:31:31,799  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:32:23,182  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:32:23,182  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:15,062  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:15,062  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:27,812  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:27,812  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:35,562  WARN [Worker-40] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:35,562  WARN [Worker-40] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:37,483  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:37,483  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:43,452  WARN [Worker-30] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:43,452  WARN [Worker-30] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:33:50,202  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:33:50,202  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:34:26,620  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:34:26,620  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:34:30,385  WARN [Worker-30] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:34:30,385  WARN [Worker-30] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:34:39,073  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:34:39,073  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:35:50,035  WARN [Worker-32] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:35:50,035  WARN [Worker-32] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:35:58,660  WARN [Worker-38] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:35:58,660  WARN [Worker-38] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:51:43,827  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:51:43,827  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:51:51,514  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:51:51,514  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:51:54,873  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:51:54,873  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:51:58,029  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:51:58,029  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:52:16,076  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:52:16,076  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:52:19,716  WARN [Worker-37] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:52:19,716  WARN [Worker-37] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:52:25,950  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:52:25,950  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:53:53,742  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:53:53,742  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:53:56,117  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:53:56,117  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:53:58,320  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:53:58,320  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:54:15,130  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:54:15,130  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:54:28,466 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:54:28,466 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:54:28,466 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-21 22:54:36,797  WARN [Worker-37] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:54:36,797  WARN [Worker-37] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:55:07,611  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:55:07,611  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:55:51,352  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:55:51,352  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:56:40,537  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:56:40,537  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:57:59,957  WARN [Worker-37] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:57:59,957  WARN [Worker-37] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:58:37,144  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:58:37,144  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 22:59:22,269  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 22:59:22,269  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:00:31,297  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:00:31,297  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:00:49,343  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:00:49,343  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:01:13,874  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:01:13,874  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:01:23,967  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:01:23,967  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:04:13,861  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:04:13,861  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:05:28,672  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:05:28,672  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:05:41,140  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:05:41,140  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:05:50,765  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:05:50,765  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:06:03,100  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:06:03,100  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:06:57,625  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:06:57,625  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:03,640  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:03,640  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:07,671  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:07,671  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:14,390  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:14,390  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:47,388  WARN [Worker-43] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:47,388  WARN [Worker-43] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:52,810  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:52,810  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:07:55,872  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:07:55,872  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:08:20,278  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:08:20,278  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:09:52,666  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:09:52,666  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:14:43,229  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:14:43,229  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:14:50,323  WARN [Worker-46] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:14:50,323  WARN [Worker-46] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:17:34,190  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:17:34,190  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:18:20,251  WARN [Worker-46] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:18:20,251  WARN [Worker-46] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:19:37,185  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:19:37,185  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:26:45,062  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:26:45,062  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:26:58,686  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:26:58,686  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:28:52,854  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:28:52,854  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:29:06,040  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:29:06,040  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:30:43,912  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:30:43,912  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:30:47,037  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:30:47,037  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:30:57,083  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:30:57,083  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:31:07,895  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:31:07,895  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:31:22,144  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:31:22,144  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:31:43,050  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:31:43,050  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:32:04,237  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:32:04,237  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:32:19,767  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:32:19,767  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:33:07,344  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:33:07,344  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:34:44,569  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:34:44,569  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:34:47,491  WARN [Worker-41] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:34:47,491  WARN [Worker-41] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:35:12,267  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:35:12,267  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:35:52,796 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:35:53,328 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:35:53,859 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:35:54,390 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:35:54,921 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:35:55,984 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol.$anonfun$safeSymbol$15(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:36:38,889  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:36:38,889  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:36:42,702  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:36:42,702  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:36:45,748  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:36:45,748  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:38:12,954  WARN [Worker-42] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:38:12,954  WARN [Worker-42] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:40:36,619 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-21 23:40:45,634  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:40:45,634  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:40:50,306  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:40:50,306  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:41:15,758  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:41:15,758  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:41:29,539  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:41:29,539  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:41:32,242  WARN [Worker-44] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:41:32,242  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-21 23:42:20,896  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-21 23:42:20,896  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
