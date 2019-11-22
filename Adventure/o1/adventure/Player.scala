@@ -42,7 +42,11 @@ class Player(startingArea: Area) {
   def go(direction: String) = {
     val destination = this.location.neighbor(direction)
     this.currentLocation = destination.getOrElse(this.currentLocation)
-    if (destination.isDefined) "You go " + direction + "." else "You can't go " + direction + "."
+    if (destination.isDefined) {
+      "You go " + direction + "."
+    } else {
+      "You can't go " + direction + "."
+    }
   }
   
   def get(item: String): String = {

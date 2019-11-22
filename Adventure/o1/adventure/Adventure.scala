@@ -12,9 +12,6 @@ package o1.adventure
   * games, you will need to modify or replace the source code of this class. */
 class Adventure {
 
-  /** The title of the adventure game. */
-  val title = "A home adventure"
-
   val home = new Area("Home", "Chilling at home. What do you want to do?")
   val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths?")
   

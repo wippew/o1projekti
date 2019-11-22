@@ -1122,3 +1122,1061 @@ scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a c
 2019-11-22 20:00:19,810  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
 2019-11-22 20:00:31,340  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
 2019-11-22 20:00:31,340  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:01:33,271  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:01:33,271  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:01:41,617  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:01:41,618  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:02:45,039  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:02:45,039  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:03:01,562  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:03:01,562  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:03:37,096  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:03:37,096  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:03:49,308  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:03:49,308  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:03:58,679  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:03:58,679  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:04:03,813  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:04:03,813  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:04:29,891  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:04:29,891  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:04:53,696  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:04:53,696  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:05:51,267 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 20:06:38,364  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:06:38,364  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:06:44,554  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:06:44,554  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:07:22,753  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:07:22,753  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:07:43,605  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:07:43,605  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:08:04,381  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:08:04,381  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:08:44,686  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:08:44,686  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:09:54,600  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:09:54,600  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:10:04,402  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:10:04,402  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:10:08,823 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:10:08,823 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:10:08,823 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:10:51,636  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:10:51,636  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:11:05,547  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:11:05,547  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:11:36,516  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:11:36,516  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:11:39,711  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:11:39,711  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:11:42,842  WARN [Worker-12] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:11:42,842  WARN [Worker-12] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:11:47,069 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:11:47,069 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:11:47,069 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:11:50,052  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:11:50,052  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:13:05,136  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:13:05,136  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:13:21,755  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:13:21,755  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:14:06,889  WARN [main] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-11-22 20:15:10,111  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:10,111  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:15:16,722  WARN [Worker-12] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:16,722  WARN [Worker-12] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:15:22,002  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:22,002  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:15:28,424  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:28,424  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:15:50,109  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:50,109  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:15:54,725 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:15:54,725 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:15:54,725 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:15:56,903  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:15:56,903  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:16:09,677  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:16:09,677  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:19:10,132 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:19:10,132 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:19:10,132 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:21:15,386  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:21:15,386  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:21:56,251  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:21:56,251  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:22:00,029 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:22:00,029 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:22:00,029 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 20:22:42,837  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:22:42,837  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:22:48,656  WARN [Worker-12] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:22:48,656  WARN [Worker-12] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:25:17,006  WARN [Worker-12] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:25:17,006  WARN [Worker-12] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:25:57,327  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:25:57,327  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:26:06,046  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:26:06,046  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:26:45,576  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:26:45,576  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:30:25,926  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:30:25,926  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:30:52,866  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:30:52,866  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:30:58,202  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:30:58,202  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:31:33,457  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:31:33,457  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:32:49,557  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:32:49,557  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:32:51,747  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:32:51,747  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:34:42,517  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:34:42,517  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:35:25,167  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:35:25,167  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:35:34,217  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:35:34,217  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:35:52,907  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:35:52,907  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:35:55,832  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:35:55,832  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:17,167  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:17,167  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:20,697  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:20,697  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:23,898  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:23,898  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:34,647  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:34,647  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:38,916  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:38,916  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:36:52,128  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:36:52,128  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:38:22,328  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:38:22,328  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:38:31,898  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:38:31,898  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:39:29,189  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:39:29,189  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:39:38,927  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:39:38,927  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:40:07,178  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:40:07,178  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:40:15,308  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:40:15,308  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:40:23,718  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:40:23,718  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:41:12,768  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:41:12,768  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:44:14,164  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:44:14,164  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:44:30,718  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:44:30,718  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:45:01,108  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:45:01,108  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:45:07,999  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:45:07,999  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:45:24,410  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:45:24,410  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:45:28,068  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:45:28,068  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:46:29,028  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:46:29,028  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:47:23,329  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:47:23,329  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:47:56,828  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:47:56,828  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:48:00,189  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:48:00,189  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:52:41,133  WARN [Worker-0] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:52:41,133  WARN [Worker-0] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:55:06,122  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:55:06,122  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:56:12,080  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:56:12,080  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:56:14,642  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:56:14,642  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:03:00,717  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:03:00,717  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:25:26,913  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:25:26,913  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:25:46,894  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:25:46,894  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:26:41,736  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:26:41,736  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:27:02,924 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:27:02,924 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:27:02,924 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:27:04,138  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:27:04,138  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:27:33,322  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:27:33,322  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:30:39,413  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:30:39,413  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:31:02,923  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:31:02,923  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:32:06,704  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:32:06,704  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:32:21,254  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:32:21,254  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:32:37,663  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:32:37,663  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:32:55,414  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:32:55,414  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:32:58,584  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:32:58,584  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:33:37,464  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:33:37,464  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:33:42,813  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:33:42,813  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:34:11,673  WARN [Worker-9] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:34:11,673  WARN [Worker-9] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:34:26,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:34:26,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:34:26,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,634 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:35,634 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:34:40,083  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:34:40,083  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:34:45,234  WARN [Worker-2] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:34:45,234  WARN [Worker-2] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:35:09,976  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:35:09,976  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:35:11,412 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value <local $anon>) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:35:12,663  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:35:12,663  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:35:19,304  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:35:19,304  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:35:19,794 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:35:19,794 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:35:19,794 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:35:36,163 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value availableCommands) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:35:37,564  WARN [Worker-13] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:35:37,564  WARN [Worker-13] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:35:53,184  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:35:53,184  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:38:50,254  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:38:50,254  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:39:01,425  WARN [Worker-10] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:39:01,425  WARN [Worker-10] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:39:13,758  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:39:13,758  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:39:25,365  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:39:25,365  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:40:12,964  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:40:12,964  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:41:07,795  WARN [Worker-20] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:41:07,795  WARN [Worker-20] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:41:30,724 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value <local $anon>) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:41:36,253  WARN [Worker-17] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:41:36,253  WARN [Worker-17] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:41:39,394  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:41:39,394  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:42:26,095  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:42:26,095  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:42:27,164 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:34,144  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:42:34,144  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:42:48,895 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:42:48,895 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:42:48,895 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:42:53,812 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,813 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,815 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,816 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,819 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,820 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,821 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,823 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:42:53,824 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.Types$TypeError: Internal error: no synthetic tree found for bean accessor value self
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:962)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:1948)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:1946)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:1941)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Symbols$Symbol.tpe_$times(Symbols.scala:1495)
+	at scala.reflect.internal.Symbols$Symbol.tpe(Symbols.scala:1460)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric(Erasure.scala:98)
+	at scala.reflect.internal.transform.Erasure.valueClassIsParametric$(Erasure.scala:95)
+	at scala.tools.nsc.transform.Erasure.valueClassIsParametric(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg(Erasure.scala:83)
+	at scala.reflect.internal.transform.Erasure.erasedValueClassArg$(Erasure.scala:80)
+	at scala.tools.nsc.transform.Erasure.erasedValueClassArg(Erasure.scala:15)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.eraseDerivedValueClassRef(Erasure.scala:112)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:131)
+	at scala.reflect.internal.transform.Transforms.transformedType(Transforms.scala:40)
+	at scala.reflect.internal.transform.Transforms.transformedType$(Transforms.scala:39)
+	at scala.reflect.internal.SymbolTable.transformedType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$TypeApiImpl.erasure(Types.scala:228)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3(TraverserImpl.scala:96)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$3$adapted(TraverserImpl.scala:95)
+	at scala.Option.fold(Option.scala:158)
+	at org.scalaide.ui.internal.editor.decorators.custom.AllMethodsTraverserImpl.$anonfun$checkType$1(TraverserImpl.scala:95)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:43:03,124  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:43:03,124  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:43:14,295  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:43:14,295  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:43:24,514  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:43:24,514  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:43:40,845  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:43:40,845  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:43:56,164  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:43:56,164  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:44:00,104  WARN [Worker-15] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:44:00,104  WARN [Worker-15] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:44:42,214  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:44:42,214  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:44:51,824 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value <local $anon>) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:45:49,645 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:45:49,645 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:45:49,645 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:46:00,265  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:46:00,265  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:46:17,555  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:46:17,555  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:46:29,484 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:46:29,484 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:46:29,484 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:46:30,515  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:46:30,515  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:47:12,585  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:47:12,585  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:47:18,255  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:47:18,255  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:48:06,725  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:48:06,725  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:48:55,415  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:48:55,415  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:48:57,415  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:48:57,415  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:49:32,555  WARN [Worker-23] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:49:32,555  WARN [Worker-23] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:49:57,195 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value upperInfoBox) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:50:19,725  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:50:19,725  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:50:25,958  WARN [Worker-24] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:50:25,958  WARN [Worker-24] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:51:53,245 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(value <local $anon>) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:51:57,675  WARN [Worker-23] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:51:57,675  WARN [Worker-23] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:52:05,505  WARN [Worker-26] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:52:05,505  WARN [Worker-26] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:53:12,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:53:12,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:53:12,776 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 21:53:43,256  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:53:43,256  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:54:20,825  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:54:20,825  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:54:22,736  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:54:22,736  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:54:39,926  WARN [Worker-17] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:54:39,926  WARN [Worker-17] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:54:56,137  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:54:56,137  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:54:58,886  WARN [Worker-27] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:54:58,886  WARN [Worker-27] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:55:03,316  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:55:03,316  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:55:36,466  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:55:36,466  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:56:31,506  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:56:31,506  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:57:19,316  WARN [Worker-25] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:57:19,316  WARN [Worker-25] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:57:25,446  WARN [Worker-19] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:57:25,446  WARN [Worker-19] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:57:55,746  WARN [Worker-21] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:57:55,746  WARN [Worker-21] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:58:09,686  WARN [Worker-17] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:58:09,686  WARN [Worker-17] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:58:12,696 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a class
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:61)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:57)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$ThisType.<init>(Types.scala:1181)
+	at scala.reflect.internal.Types$UniqueThisType.<init>(Types.scala:1201)
+	at scala.reflect.internal.Types$ThisType$.apply(Types.scala:1205)
+	at scala.tools.nsc.interactive.Global.findMirrorSymbol(Global.scala:862)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$5$adapted(Global.scala:935)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:934)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:846)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2019-11-22 21:58:19,706  WARN [Worker-14] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:58:19,706  WARN [Worker-14] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:58:21,876  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:58:21,876  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:58:33,526  WARN [Worker-17] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:58:33,526  WARN [Worker-17] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:59:08,777  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:59:08,777  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 21:59:42,186  WARN [Worker-22] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 21:59:42,186  WARN [Worker-22] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 22:00:06,666  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 22:00:06,666  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
