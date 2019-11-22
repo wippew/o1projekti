@@ -22,7 +22,7 @@ object AdventureGUI extends SimpleSwingApplication {
 
     // Components:
 
-    val upperInfoBox = new TextArea(7, 80) {
+    val mainFrame = new TextArea(7, 80) {
       editable = false
       wordWrap = true
       lineWrap = true
@@ -37,7 +37,7 @@ object AdventureGUI extends SimpleSwingApplication {
       minimumSize = preferredSize
     }
     
-    val availableCommands = new TextArea(1, 60) {
+    val availableExits = new TextArea(1, 60) {
       editable = false
       wordWrap = true
       lineWrap = true
@@ -66,15 +66,15 @@ object AdventureGUI extends SimpleSwingApplication {
     this.contents = new GridBagPanel {
       import scala.swing.GridBagPanel.Anchor._
       import scala.swing.GridBagPanel.Fill
-      layout += new Label("Location:") ->                         new Constraints(0, 0, 1, 1, 0, 1, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
-      layout += new Label("Command:")  ->                         new Constraints(0, 1, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
-      layout += new Label("Available commands:")   ->             new Constraints(0, 2, 1, 0, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)            
-      layout += new Label("Events:")   ->                         new Constraints(0, 3, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
-      layout += upperInfoBox           ->                         new Constraints(1, 0, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += input                  ->                         new Constraints(1, 1, 1, 1, 1, 0, NorthWest.id, Fill.None.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += availableCommands      ->                         new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += output                 ->                         new Constraints(1, 3, 1, 2, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += turnCounter            ->                         new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += new Label("Main frame:") ->                        new Constraints(0, 0, 1, 1, 0, 1, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += new Label("Command:")  ->                          new Constraints(0, 1, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += new Label("Available doors:")   ->                 new Constraints(0, 2, 1, 0, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)            
+      layout += new Label("Output:")   ->                          new Constraints(0, 3, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += mainFrame           ->                             new Constraints(1, 0, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += input                  ->                          new Constraints(1, 1, 1, 1, 1, 0, NorthWest.id, Fill.None.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += availableExits      ->                          new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += output                 ->                          new Constraints(1, 3, 1, 2, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += turnCounter            ->                          new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
     }
 
     // Menu:
@@ -89,7 +89,8 @@ object AdventureGUI extends SimpleSwingApplication {
     // Set up the GUI’s initial state:
 
     title = "GAME STARTS"
-    upperInfoBox.text = "You are sitting in your livingroom, what you wanna do?" + player.location.fullDescription
+    mainFrame.text = player.location.description
+    availableExits.text = getAvailableExits
     location = new Point(50, 50)
     minimumSize = new Dimension(200, 300)
     pack()
@@ -97,34 +98,94 @@ object AdventureGUI extends SimpleSwingApplication {
     this.turnCounter.text = "turnCOunterTExt"
 
     def playTurn(command: String) = {
-      var ret = command.toLowerCase()
-      ret match {
-        case "maths" => goToMath(0)
-        case "2" => goToMath(2)
-        case _ => {              
-          val turnReport = this.game.playTurn(ret)
-          this.upperInfoBox.text = player.location.fullDescription
+      var str = command.toLowerCase().trim().replaceAll("\\s", "")
+      game.playTurn(command)
+      if (player.location.name == "Home") {
+        handleHome(command)
+      } else if (player.location.name == "Study room") {
+        handleStudyRoom(str, command)
+      }
+    }
+    
+    private def handleHome(command: String) = {
+      println("here")
+     // game.playTurn(command)
+      availableExits.text = getAvailableExits()
+      mainFrame.text = player.location.getText()
+    }
+    
+    private def handleStudyRoom(str: String, command: String) = {
+      println("now here")
+        str match {
+            case "m" => refreshMaths()
+            case "1" => goToMathProblem1(0)
+            case "2" => goToMathProblem2(0)
+            case "3" => goToMathProblem3(0)
+            case "10" => goToMathProblem1(10)
+            case "100000" => goToMathProblem2(100000)
+            case "-15" => goToMathProblem3(-15)
+            case _ => {
+              println(command)
+           //   val turnReport = game.playTurn(command)
+              this.mainFrame.text = "For studying writing type w, for studying maths type m"
+              this.output.text = "turnRepo"
+              this.availableExits.text = getAvailableExits
         }
       }
     }
     
-    private def goToMath(i: Int) = {
+    private def goToMathProblem1(i: Int) = {
+      mainFrame.text = ("Solve the equation 3 + 7")
+      output.text = "";
       if ( i == 0 ) {
-        0 //corner prepared
-      }
-      refreshMaths()
-      upperInfoBox.text = ("Solve the equation 1 + 1")
-      if ( i == 2 ) {
-        output.text = "CORRECT WELL DONE YOU GET 1 POINT"
+        0
       } else {
-        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        if ( i == 10 ) {
+          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 2 OR 3"          
+        } else {
+          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        }
+      }
+    }
+    
+    private def goToMathProblem2(i: Int) = {
+      mainFrame.text = ("What is the square of 1000")
+      output.text = "";
+      if ( i == 0 ) {
+        0
+      } else {
+        if ( i == 100000 ) {
+          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 3"          
+        } else {
+          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        }
+      }
+    }
+    
+    private def goToMathProblem3(i: Int) = {
+      mainFrame.text = ("Solve the equation 484 - 499")
+      output.text = "";
+      if ( i == 0 ) {
+        0
+      } else {
+        if ( i == -15 ) {
+          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 2"          
+        } else {
+          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        }
       }
     }
     
     private def refreshMaths() = {
-      title = "The study coom of maths"
+      title = "The study room of maths"
+      availableExits.text = getAvailableExits()
       output.text = "You are about to get rekt"
-      upperInfoBox.text = "You are in the study room of maths" + "\n" + player.location.fullDescription
+      mainFrame.text = "You are in the study room of maths, to solve problem 1 type 1, to solve problem 2 type 2 and for problem 3 type 3"
+    }
+    
+    
+    private def getAvailableExits(): String = {
+      return player.location.getNeighbors()
     }
     
 

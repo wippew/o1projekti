@@ -61,6 +61,12 @@ class Area(var name: String, var description: String) {
 		  this.description + exitList 
 	  }
   } 
+  
+  def getNeighbors() : String = {
+    return this.neighbors.keys.mkString(" ")
+  }
+  
+  def getText(): String = ""
 
 
   /** Returns a single-line description of the area for debugging purposes. */

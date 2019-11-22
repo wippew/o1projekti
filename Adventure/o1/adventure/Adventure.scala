@@ -13,7 +13,7 @@ package o1.adventure
 class Adventure {
 
   val home = new Area("Home", "Chilling at home. What do you want to do?")
-  val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths?")
+  val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths? \n For studying writing type w, for studying maths type m")
   
   home.setNeighbors(Vector("north" -> studyRoom))
   studyRoom.setNeighbors(Vector("south" -> home))
