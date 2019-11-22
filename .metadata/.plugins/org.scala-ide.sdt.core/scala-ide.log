@@ -1098,3 +1098,27 @@ scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a c
 2019-11-21 23:41:32,242  WARN [Worker-44] - ScalaProject - Project Adventure runs on platform default installation.
 2019-11-21 23:42:20,896  WARN [Worker-45] - ScalaProject - Project Adventure has platform default sourceLevel.
 2019-11-21 23:42:20,896  WARN [Worker-45] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:36:43,588  WARN [main] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:36:43,588  WARN [main] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:36:43,588  WARN [main] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:36:43,588  WARN [main] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:36:47,873  WARN [Worker-1] - ScalaProject - Project O1Library has platform default sourceLevel.
+2019-11-22 19:36:47,873  WARN [Worker-1] - ScalaProject - Project O1Library runs on platform default installation.
+2019-11-22 19:58:18,254  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:58:18,254  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:58:18,304  WARN [Worker-7] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:58:18,304  WARN [Worker-7] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:58:28,288  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:58:28,288  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:58:32,230 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 19:58:32,293 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 19:58:32,293 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 19:58:32,293 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-11-22 19:58:56,395  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:58:56,395  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 19:59:33,917  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 19:59:33,917  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:00:19,810  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:00:19,810  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
+2019-11-22 20:00:31,340  WARN [Worker-6] - ScalaProject - Project Adventure has platform default sourceLevel.
+2019-11-22 20:00:31,340  WARN [Worker-6] - ScalaProject - Project Adventure runs on platform default installation.
