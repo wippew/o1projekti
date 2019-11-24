@@ -5,7 +5,7 @@ import scala.swing.event._
 import javax.swing.UIManager
 import o1.adventure.Adventure
 import o1.adventure._
-
+import o1.adventure.MathTasks
 
 
 
@@ -108,73 +108,32 @@ object AdventureGUI extends SimpleSwingApplication {
     }
     
     private def handleHome(command: String) = {
-      println("here")
-     // game.playTurn(command)
+      game.playTurn(command)
       availableExits.text = getAvailableExits()
       mainFrame.text = player.location.getText()
+      println(player.location.name)
     }
     
     private def handleStudyRoom(str: String, command: String) = {
-      println("now here")
-        str match {
-            case "m" => refreshMaths()
-            case "1" => goToMathProblem1(0)
-            case "2" => goToMathProblem2(0)
-            case "3" => goToMathProblem3(0)
-            case "10" => goToMathProblem1(10)
-            case "100000" => goToMathProblem2(100000)
-            case "-15" => goToMathProblem3(-15)
-            case _ => {
-              println(command)
-           //   val turnReport = game.playTurn(command)
-              this.mainFrame.text = "For studying writing type w, for studying maths type m"
-              this.output.text = "turnRepo"
-              this.availableExits.text = getAvailableExits
-        }
+      val mathTask = new MathTasks(mainFrame, output)
+      str match {
+          case "m" => refreshMaths()
+          case "1" => mathTask.goToMathProblem1(0)
+          case "2" => mathTask.goToMathProblem2(0)
+          case "3" => mathTask.goToMathProblem3(0)
+          case "10" => mathTask.goToMathProblem1(10)
+          case "100000" => mathTask.goToMathProblem2(100000)
+          case "-15" => mathTask.goToMathProblem3(-15)
+          case _ => {
+            this.mainFrame.text = "For studying writing type w, for studying maths type m"
+            this.output.text = "turnRepo"
+            this.availableExits.text = getAvailableExits
       }
+          println(player.location.name)
+    }
     }
     
-    private def goToMathProblem1(i: Int) = {
-      mainFrame.text = ("Solve the equation 3 + 7")
-      output.text = "";
-      if ( i == 0 ) {
-        0
-      } else {
-        if ( i == 10 ) {
-          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 2 OR 3"          
-        } else {
-          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
-        }
-      }
-    }
     
-    private def goToMathProblem2(i: Int) = {
-      mainFrame.text = ("What is the square of 1000")
-      output.text = "";
-      if ( i == 0 ) {
-        0
-      } else {
-        if ( i == 100000 ) {
-          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 3"          
-        } else {
-          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
-        }
-      }
-    }
-    
-    private def goToMathProblem3(i: Int) = {
-      mainFrame.text = ("Solve the equation 484 - 499")
-      output.text = "";
-      if ( i == 0 ) {
-        0
-      } else {
-        if ( i == -15 ) {
-          output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 2"          
-        } else {
-          output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
-        }
-      }
-    }
     
     private def refreshMaths() = {
       title = "The study room of maths"
