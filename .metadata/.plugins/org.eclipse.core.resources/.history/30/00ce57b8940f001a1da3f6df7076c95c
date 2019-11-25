@@ -1,0 +1,167 @@
+package o1.adventure.ui
+
+import scala.swing._
+import scala.swing.event._
+import javax.swing.UIManager
+import o1.adventure.Adventure
+import o1.adventure._
+import o1.adventure.MathTasks
+
+
+
+
+object AdventureGUI extends SimpleSwingApplication {
+  UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName)
+
+  def top = new MainFrame {
+
+    // Access to the application’s internal logic:
+    val game = new Adventure
+    val player = game.player
+    val wife = game.wife
+    
+    //10 required to win
+    var points = 0
+
+    // Components:
+    val mainFrame = new TextArea(7, 80) {
+      editable = false
+      wordWrap = true
+      lineWrap = true
+    }
+    val output = new TextArea(7, 80) {
+      editable = false
+      wordWrap = true
+      lineWrap = true
+    }
+    
+    val input = new TextField(40) {
+      minimumSize = preferredSize
+    }
+    
+    val availableExits = new TextArea(1, 60) {
+      editable = false
+      wordWrap = true
+      lineWrap = true
+    }
+    
+    this.listenTo(input.keys)    
+    val pointCounter = new Label
+
+    // Events:
+    this.reactions += {
+      case keyEvent: KeyPressed =>
+        if (keyEvent.source == this.input && keyEvent.key == Key.Enter && !this.game.isOver) {
+          val command = this.input.text.trim
+          if (command.nonEmpty) {
+            this.input.text = ""
+            this.playTurn(command)
+          }
+        }
+    }
+    // Layout:
+
+    this.contents = new GridBagPanel {
+      import scala.swing.GridBagPanel.Anchor._
+      import scala.swing.GridBagPanel.Fill
+      layout += new Label("Main frame:") ->                        new Constraints(0, 0, 1, 1, 0, 1, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += new Label("Command:")  ->                          new Constraints(0, 1, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += new Label("Available doors:")   ->                 new Constraints(0, 2, 1, 0, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)            
+      layout += new Label("Output:")   ->                          new Constraints(0, 3, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += mainFrame           ->                             new Constraints(1, 0, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += input                  ->                          new Constraints(1, 1, 1, 1, 1, 0, NorthWest.id, Fill.None.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += availableExits      ->                             new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += output                 ->                          new Constraints(1, 3, 1, 2, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += pointCounter            ->                         new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+    }
+
+    // Menu:
+    this.menuBar = new MenuBar {
+      contents += new Menu("Program") {
+        val quitAction = Action("Quit") { dispose() }
+        contents += new MenuItem(quitAction)
+      }
+    }
+    
+    // Set up the GUI’s initial state:
+    title = "GAME STARTS"
+    mainFrame.text = player.location.description
+    availableExits.text = getAvailableExits
+    location = new Point(50, 50)
+    minimumSize = new Dimension(200, 300)
+    pack()
+    input.requestFocusInWindow()
+    this.pointCounter.text = "Points: " + points.toString
+     
+    //could be considered as my main function for the game, all the handling of rooms happens here
+    def playTurn(command: String) = {
+      val str = command.toLowerCase().trim().replaceAll("\\s", "")
+      val outcomeReport = game.playTurn(command)
+      val studyRoom = game.studyRoom
+      val livingRoom = game.livingRoom
+      if (player.location.name == "Living room") {
+        livingRoom.handleLivingRoom(command, outcomeReport, studyRoom, mainFrame, output, availableExits, player)
+        title = "Living room"
+      } else if (player.location.name == "Study room") {        
+        studyRoom.handleStudyRoom(str, command, outcomeReport, mainFrame, output, availableExits, player)
+        title = "Study room"
+      } else if (player.location.name == "Kitchen") {
+        handleKitchen(str)
+      }
+    }    
+    var alreadyInKitchen = false
+    def handleKitchen(str: String) = {
+      if (!alreadyInKitchen) {
+        refreshKitchen()
+        alreadyInKitchen = true
+      } else {      
+        str match {
+          case "wash" => washDishes()
+          case "grab beer" => {            
+            if (wife.location.name == "kitchen") {
+              this.output.text = "Wife: What are you doing?! Wash the dishes or something, you get -1 point"
+              points -= 1
+              updatePoints()
+            } else {
+              player.get("Beer")
+              this.output.text = "Uh, that's cold, write 'drink' to drink the beer"
+            }
+          }
+          case "drink" => {
+            if (wife.location.name == "kitchen") {
+              output.text = "Wife: NO YOU CANT DRINK BEER DURING THE DAY! YOU GET -5 POINTS"
+            } else if (player.has("Beer")) {
+              player.drinkBeer()
+            }
+          }
+          case _ => this.output.text = "The options in the kitchen are: wash and grab beer..."
+        }
+      }
+    }
+    
+    private def updatePoints() = {
+      pointCounter.text = "Points: " + points.toString
+    }
+    
+    def washDishes() = {
+      if (wife.location.name == "Kitchen") {
+        points += 5
+        this.pointCounter.text = "Points: " + points.toString
+        this.output.text = "Wife: Nice job you get 5 points"
+      } else {
+        this.output.text = "Your wife was not here. No points gained and your hands hurt, maybe you want to grab a beer by typing: grab beer\nOr wash the dishes again"
+      }
+    }
+    
+    def refreshKitchen() = {
+      this.mainFrame.text = game.kitchen.description + "\nTo grab a beer type: grab beer, to wash the dishes type: wash"     
+    }
+    
+    private def getAvailableExits(): String = {
+      return player.location.getNeighbors()
+    }
+    
+  }
+
+}
+

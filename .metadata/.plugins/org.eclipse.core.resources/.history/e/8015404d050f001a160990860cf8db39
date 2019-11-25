@@ -1,0 +1,6 @@
+package o1.adventure
+import scala.swing.TextArea
+
+class writing(mainFrame: TextArea, output: TextArea) {
+  
+}

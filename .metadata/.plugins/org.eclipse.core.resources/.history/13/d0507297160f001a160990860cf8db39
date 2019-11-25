@@ -1,0 +1,45 @@
+package o1.adventure
+import scala.swing.TextArea
+
+class MathTasks(mainFrame: TextArea, output: TextArea){
+  
+  def goToMathProblem1(i: Int) = {
+    mainFrame.text = ("Solve the equation 3 + 7")
+    output.text = "";
+    if ( i == 0 ) {
+      0
+    } else {
+      if ( i == 10 ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER B OR C.\nOr switch to writing by typing: write"          
+      }
+    }
+  }
+    
+  def goToMathProblem2(i: Int) = {
+    mainFrame.text = ("What is the square of 1000")
+    output.text = "";
+    if ( i == 0 ) {
+      0
+    } else {
+      if ( i == 100000 ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR C.\nOr switch to writing by typing: write"          
+      }
+    }
+  }
+    
+  def goToMathProblem3(i: Int) = {
+    mainFrame.text = ("Solve the equation 484 - 499")
+    output.text = "";
+    if ( i == 0 ) {
+      0
+    } else {
+      if ( i == -15 ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR B.\nOr switch to writing by typing: write"          
+      }
+    }
+  }
+  
+  def goToLosePoint() = {
+    output.text = "Wrong, -1 point, try again\nOr switch to writing by typing: write"
+  }
+}

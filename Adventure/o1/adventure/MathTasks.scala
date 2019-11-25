@@ -1,7 +1,7 @@
 package o1.adventure
 import scala.swing.TextArea
 
-class MathTasks(mainFrame: TextArea, output: TextArea){
+class MathTasks(mainFrame: TextArea, output: TextArea, player: Player, kitchen: Kitchen){
   
   def goToMathProblem1(i: Int) = {
     mainFrame.text = ("Solve the equation 3 + 7")
@@ -26,6 +26,10 @@ class MathTasks(mainFrame: TextArea, output: TextArea){
       }
     }
   }
+  
+  def getRandomNumber(): String = {
+    return scala.util.Random.nextInt(5000).toString
+  }
     
   def goToMathProblem3(i: Int) = {
     mainFrame.text = ("Solve the equation 484 - 499")
@@ -34,12 +38,14 @@ class MathTasks(mainFrame: TextArea, output: TextArea){
       0
     } else {
       if ( i == -15 ) {
-        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR B.\nOr switch to writing by typing: write"          
+        output.text = "CORRECT WELL DONE YOU GET 3 BEERS! YOU CAN COLLECT THEM FROM THE KITCHEN" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR B.\nOr switch to writing by typing: write"
+        kitchen.addItems(Vector(new Item("Beer" + getRandomNumber, "New unopened fresh beer"), new Item("Beer2"+ getRandomNumber, "New unopened fresh beer"), new Item("Beer3"+ getRandomNumber, "New unopened fresh beer")))
       }
     }
   }
   
-  def goToLosePoint() = {
+  def goToLosePoint(player: Player) = {
     output.text = "Wrong, -1 point...\nTry the same task again or switch to writing by typing: write"
+    player.points -= 1
   }
 }

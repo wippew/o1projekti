@@ -12,49 +12,35 @@ package o1.adventure
   * games, you will need to modify or replace the source code of this class. */
 class Adventure {
 
-  val livingRoom = new LivingRoom("Home", "Chilling at home. What do you want to do?")
+  val livingRoom = new LivingRoom("Living room", "Chilling at home. What do you want to do?")
   val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths? \n For studying writing type w, for studying maths type m")
+  val kitchen = new Kitchen("Kitchen", "Want to do the dishes? Or open the cabinet to get a bottle of beer?")
   
-  livingRoom.setNeighbors(Vector("north" -> studyRoom))
+  livingRoom.setNeighbors(Vector("north" -> studyRoom, "east" -> kitchen))
   studyRoom.setNeighbors(Vector("south" -> livingRoom))
-
+  kitchen.setNeighbors(Vector("west" -> livingRoom))
+  
+  
   /** The character that the player controls in the game. */
   val player = new Player(livingRoom)
+  val wife = new Player(randomizeLocation)
 
-  /** The number of turns that have passed since the start of the game. */
-  var turnCount = 0
-  /** The maximum number of turns that this adventure game allows before time runs out. */
-  val timeLimit = 40000
-
-
-  /** Determines if the adventure is complete, that is, if the player has won. */
-  def isComplete = false
-
-  /** Determines whether the player has won, lost, or quit, thereby ending the game. */
-  def isOver = this.isComplete || this.player.hasQuit || this.turnCount == this.timeLimit
-
-
-  /** Returns a message that is to be displayed to the player at the end of the game. The message
-    * will be different depending on whether or not the player has completed their quest. */
-  def goodbyeMessage = {
-    if (this.isComplete)
-      "Home at last... and phew, just in time! Well done!"
-    else if (this.turnCount == this.timeLimit)
-      "Oh no! Time's up. Starved of entertainment, you collapse and weep like a child.\nGame over!"
-    else  // game over due to player quitting
-      "Quitter!"
+  
+  def randomizeLocation(): Area = {
+    val i = scala.util.Random.nextInt(3)
+    i match {
+      case 0 => return studyRoom
+      case 1 => return livingRoom
+      case 2 => return kitchen
+    }
   }
-
 
   /** Plays a turn by executing the given in-game command, such as "go west". Returns a textual
     * report of what happened, or an error message if the command was unknown. In the latter
     * case, no turns elapse. */
   def playTurn(command: String) = {
     val action = new Action(command)
-    val outcomeReport = action.execute(this.player)
-    if (outcomeReport.isDefined) {
-      this.turnCount += 1
-    }
+    val outcomeReport = action.execute(this.player, this.wife)
     outcomeReport.getOrElse("Unknown command: \"" + command + "\".")
   }
 

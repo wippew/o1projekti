@@ -1,0 +1,5 @@
+package o1.adventure
+
+class LivingRoom(name: String, desc: String) extends Area(name: String, desc: String) {
+  
+}

@@ -1,0 +1,20 @@
+package o1.adventure
+import scala.swing.TextArea
+
+class writing(mainFrame: TextArea, output: TextArea) {
+  
+  def goWritingProblem1(i: Int) = {
+    mainFrame.text = ("Solve the equation 3 + 7")
+    output.text = "";
+    if ( i == 0 ) {
+      0
+    } else {
+      if ( i == 10 ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 2 OR 3"          
+      } else {
+        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+      }
+    }
+  }
+  
+}

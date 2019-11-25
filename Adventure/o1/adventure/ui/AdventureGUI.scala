@@ -16,12 +16,11 @@ object AdventureGUI extends SimpleSwingApplication {
   def top = new MainFrame {
 
     // Access to the application’s internal logic:
-
     val game = new Adventure
     val player = game.player
+    val wife = game.wife
 
     // Components:
-
     val mainFrame = new TextArea(7, 80) {
       editable = false
       wordWrap = true
@@ -44,12 +43,12 @@ object AdventureGUI extends SimpleSwingApplication {
     }
     
     this.listenTo(input.keys)    
-    val turnCounter = new Label
+    val pointCounter = new Label
 
     // Events:
     this.reactions += {
       case keyEvent: KeyPressed =>
-        if (keyEvent.source == this.input && keyEvent.key == Key.Enter && !this.game.isOver) {
+        if (keyEvent.source == this.input && keyEvent.key == Key.Enter) {
           val command = this.input.text.trim
           if (command.nonEmpty) {
             this.input.text = ""
@@ -70,11 +69,10 @@ object AdventureGUI extends SimpleSwingApplication {
       layout += input                  ->                          new Constraints(1, 1, 1, 1, 1, 0, NorthWest.id, Fill.None.id, new Insets(5, 5, 5, 5), 0, 0)
       layout += availableExits      ->                             new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
       layout += output                 ->                          new Constraints(1, 3, 1, 2, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += turnCounter            ->                          new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
+      layout += pointCounter            ->                         new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
     }
 
     // Menu:
-
     this.menuBar = new MenuBar {
       contents += new Menu("Program") {
         val quitAction = Action("Quit") { dispose() }
@@ -84,30 +82,106 @@ object AdventureGUI extends SimpleSwingApplication {
     
     // Set up the GUI’s initial state:
     title = "GAME STARTS"
-    mainFrame.text = player.location.description
+    mainFrame.text = "You can study or do housework, you are blind so you can't see your wife.\nYou will be divorced when you have -5 points"
     availableExits.text = getAvailableExits
     location = new Point(50, 50)
     minimumSize = new Dimension(200, 300)
     pack()
     input.requestFocusInWindow()
-    this.turnCounter.text = "turnCOunterTExt"
-
+    this.pointCounter.text = "Points: " + player.points.toString
+     
+    //could be considered as my main function for the game, all the handling of rooms happens here
     def playTurn(command: String) = {
+      if (command == "quit") {
+        this.dispose()
+      }
+      wife.setLocation(game.randomizeLocation())
       val str = command.toLowerCase().trim().replaceAll("\\s", "")
       val outcomeReport = game.playTurn(command)
       val studyRoom = game.studyRoom
       val livingRoom = game.livingRoom
-      if (player.location.name == "Home") {
-        livingRoom.handleLivingRoom(command, outcomeReport, studyRoom, mainFrame, output, availableExits, player)
+      if (player.location.name == "Living room") {
+        livingRoom.handleLivingRoom(command, outcomeReport, studyRoom, mainFrame, output, player)
         title = "Living room"
+        availableExits.text = getAvailableExits
+        updatePoints()
+        validateWin()
       } else if (player.location.name == "Study room") {        
-        studyRoom.handleStudyRoom(str, command, outcomeReport, mainFrame, output, availableExits, player)
+        studyRoom.handleStudyRoom(str, command, outcomeReport, mainFrame, output, player, game.kitchen)
         title = "Study room"
+        updatePoints() 
+        validateWin()
+        availableExits.text = getAvailableExits
+      } else if (player.location.name == "Kitchen") {
+        handleKitchen(str, outcomeReport)
+        availableExits.text = getAvailableExits
+        updatePoints() 
+        validateWin()
       }
     }    
     
+    private def validateWin() = {
+      if (gameWon()) {
+        this.mainFrame.text = "YOU HAVE WON THE GAME"
+        this.output.text = "Type: quit"
+        this.availableExits.text = ""
+      } else if (gameLost()) {
+        this.mainFrame.text = "YOU HAVE LOST THE GAME. YOUR WIFE DIVORCED YOU..."
+        this.output.text = "Type: quit"
+        this.availableExits.text = "You can only move out"
+      } 
+    }
+    
+    
+    var alreadyInKitchen = false
+    def handleKitchen(str: String, outcomeReport: String) = {      
+      if (!alreadyInKitchen) {
+        refreshKitchen()
+        alreadyInKitchen = true
+      } else {      
+        str match {
+          case "wash" => washDishes()
+          case "grabbeer" => {            
+            if (wife.location.name == "Kitchen") {
+              this.output.text = "Wife: What are you doing?! Wash the dishes or something, you get -1 point"
+              player.points -= 1
+            } else {
+              val tempText = player.get("Beer")
+              this.output.text = tempText
+            }
+          }
+          case _ => this.output.text = outcomeReport
+        }
+      }
+    }
+    
+    private def updatePoints() = {
+      pointCounter.text = "Points: " + player.points.toString
+    }
+    
+    def washDishes() = {
+      if (wife.location.name == "Kitchen") {
+        player.points += 1
+        this.output.text = "Wife: Nice job you get 1 points"
+      } else {
+        this.output.text = "Your wife was not here. No points gained and your hands hurt, maybe you want to grab a beer by typing: grab beer\nOr wash the dishes again"
+      }
+    }
+    
+    def refreshKitchen() = {
+      this.mainFrame.text = game.kitchen.description + "\nTo grab a beer type: grab beer, to wash the dishes type: wash"     
+    }
+    
     private def getAvailableExits(): String = {
       return player.location.getNeighbors()
+    }
+    
+    private def gameWon(): Boolean = {
+       player.points >= 10
+    }
+    
+    private def gameLost(): Boolean = {
+      player.points <= -5
     }
     
   }

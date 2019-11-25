@@ -7,47 +7,47 @@ class StudyRoom(name: String, desc: String) extends Area(name: String, desc: Str
     private var studyingWriting = false
     private var writingTaskChosen = false
     
-    def handleStudyRoom(str: String, command: String, outcomeReport: String, mainFrame: TextArea, output: TextArea, availableExits: TextArea, player: Player) = { 
+    def handleStudyRoom(str: String, command: String, outcomeReport: String, mainFrame: TextArea, output: TextArea, player: Player, kitchen: Kitchen) = { 
       if ( str == "m" || studyingMaths) {
         if(str == "write") {
-          switchToWriting(mainFrame, output, availableExits, player)
+          switchToWriting(mainFrame, output, player)
         } else if (!studyingMaths) {
-          refreshMaths(mainFrame, availableExits, player)
-          output.text = ""          
-        } else if (!mathTaskChosen){          
-          chooseMathTask(str, mainFrame, output)          
+          refreshMaths(mainFrame, player)          
+        } else if (!mathTaskChosen){
+          output.text = outcomeReport
+          chooseMathTask(str, mainFrame, output,player, kitchen)        
         } else {
-          testMathAnswer(str, mainFrame, output, availableExits, player)            
+          testMathAnswer(str, mainFrame, output, player, kitchen)            
         }
       } else if ( str == "w" || studyingWriting) {
         if (str == "maths") {
-          switchToMaths(mainFrame, output, availableExits, player)
+          switchToMaths(mainFrame, output, player)
         } else if (!studyingWriting) {
-          refreshWriting(mainFrame, availableExits, player)          
+          refreshWriting(mainFrame, player)          
           output.text = ""
           studyingWriting = true
         } else if (!writingTaskChosen) {
+          output.text = outcomeReport
           chooseWritingTask(str, mainFrame, output)
         } else {
-          testWritingAnswer(command, mainFrame, output, availableExits, player)          
+          testWritingAnswer(command, mainFrame, output, player)          
         }
       } else {
         mainFrame.text = "For studying writing type w, for studying maths type m"        
         output.text = outcomeReport
-        availableExits.text = getAvailableExits(player)
       }
     }
     
-    private def switchToWriting(mainFrame: TextArea, output: TextArea, availableExits: TextArea, player: Player) = {
+    private def switchToWriting(mainFrame: TextArea, output: TextArea, player: Player) = {
       output.text = "You switched to writing."
       setStudyRoomBooleansToDefault()
-      refreshWriting(mainFrame, availableExits, player)
+      refreshWriting(mainFrame, player)
     }
     
-    private def switchToMaths(mainFrame: TextArea, output: TextArea, availableExits: TextArea, player: Player) = {
+    private def switchToMaths(mainFrame: TextArea, output: TextArea, player: Player) = {
       output.text = "You switched to maths."
       setStudyRoomBooleansToDefault()
-      refreshMaths(mainFrame, availableExits, player)
+      refreshMaths(mainFrame, player)
     }
     
     def setStudyRoomBooleansToDefault() = {
@@ -68,17 +68,29 @@ class StudyRoom(name: String, desc: String) extends Area(name: String, desc: Str
     private def chooseWritingTask(str: String, mainFrame: TextArea, output: TextArea) = {
       val writingTask = new WritingTasks(mainFrame, output)
       writingTaskChosen = true
-      str match {
+      var subStr = str
+      if (str.length > 3) {
+        subStr = str.substring(0,3)
+      }
+      subStr match {
           case "a" => writingTask.goToWritingProblem1(str, true)
           case "b" => writingTask.goToWritingProblem2(str, true)
+          case "go"  => writingTaskChosen = false
+          case "res"  => writingTaskChosen = false
+          case "get" => writingTaskChosen = false
+          case "dro"  => writingTaskChosen = false
+        	case "exa"  => writingTaskChosen = false
+        	case "inv"  => writingTaskChosen = false
+        	case "qui"  => writingTaskChosen = false
+        	case "dri" => writingTaskChosen = false
           case _ => {
-          output.text = "The options are A,B and C..."
-          writingTaskChosen = false
+            output.text = "The options are A and B..."
+            writingTaskChosen = false
           }
         }      
     }
     
-    private def testWritingAnswer(str: String, mainFrame: TextArea, output: TextArea,  availableExits: TextArea, player: Player) = {
+    private def testWritingAnswer(str: String, mainFrame: TextArea, output: TextArea, player: Player) = {
       val writingTask = new WritingTasks(mainFrame, output)
       str match {
           case "AbCd^" => writingTask.goToWritingProblem1(str, false)
@@ -86,16 +98,28 @@ class StudyRoom(name: String, desc: String) extends Area(name: String, desc: Str
           case _ => writingTask.goToLosePoint()
         }
       writingTaskChosen = false
-      refreshWriting(mainFrame, availableExits, player)
+      refreshWriting(mainFrame, player)
     }
     
-    private def chooseMathTask(str: String, mainFrame: TextArea, output: TextArea) = {
-      val mathTask = new MathTasks(mainFrame, output)
+    private def chooseMathTask(str: String, mainFrame: TextArea, output: TextArea, player: Player, kitchen: Kitchen) = {
+      val mathTask = new MathTasks(mainFrame, output, player, kitchen)
       mathTaskChosen = true
-      str match {
+      var subStr = str
+      if (str.length > 3) {
+        subStr = str.substring(0,3)
+      }
+      subStr match {
         case "a" => mathTask.goToMathProblem1(0)
         case "b" => mathTask.goToMathProblem2(0)
         case "c" => mathTask.goToMathProblem3(0)
+        case "go"  => mathTaskChosen = false
+        case "res"  => mathTaskChosen = false
+        case "get" => mathTaskChosen = false
+        case "dro"  => mathTaskChosen = false
+      	case "exa"  => mathTaskChosen = false
+      	case "inv"  => mathTaskChosen = false
+      	case "qui"  => mathTaskChosen = false
+      	case "dri" => mathTaskChosen = false
         case _ => {
           output.text = "The options are A,B and C..."
           mathTaskChosen = false
@@ -103,28 +127,26 @@ class StudyRoom(name: String, desc: String) extends Area(name: String, desc: Str
       }      
     }
     
-    private def testMathAnswer(str: String, mainFrame: TextArea, output: TextArea, availableExits: TextArea, player: Player) = {
-     val mathTask = new MathTasks(mainFrame, output)
+    private def testMathAnswer(str: String, mainFrame: TextArea, output: TextArea, player: Player, kitchen: Kitchen) = {
+     val mathTask = new MathTasks(mainFrame, output, player, kitchen)
      str match {
           case "10" => mathTask.goToMathProblem1(10)
           case "100000" => mathTask.goToMathProblem2(100000)
           case "-15" => mathTask.goToMathProblem3(-15)
-          case _ => mathTask.goToLosePoint()
+          case _ => mathTask.goToLosePoint(player)
      }
      mathTaskChosen = false
-     refreshMaths(mainFrame, availableExits, player)
+     refreshMaths(mainFrame, player)
     }
     
     
-    private def refreshMaths(mainFrame: TextArea, availableExits: TextArea, player: Player) = {
-      availableExits.text = getAvailableExits(player)
+    private def refreshMaths(mainFrame: TextArea, player: Player) = {
       mainFrame.text = "You are in the study room of maths.\nTo solve problem 1 type A, to solve problem 2 type B and for problem 3 type C"
       setWritingBooleansToDefault()
       studyingMaths = true
     }
     
-    private def refreshWriting(mainFrame: TextArea, availableExits: TextArea, player: Player) = {
-      availableExits.text = getAvailableExits(player)
+    private def refreshWriting(mainFrame: TextArea, player: Player) = {
       mainFrame.text = "You are in the study room of writing.\nTo solve problem 1 type A, to solve problem 2 type B"
       setMathBooleansToDefault()
       studyingWriting = true

@@ -1,0 +1,36 @@
+package o1.adventure
+import scala.swing.TextArea
+
+class Writing(mainFrame: TextArea, output: TextArea) {
+  
+  def goWritingProblem1(str: String, switch: Boolean) = {
+    mainFrame.text = ("Write the following word: AbCd^")
+    output.text = "";
+    if (switch) {
+      0
+    } else {
+      if ( str == "AbCd^" ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE OTHER PROBLEM BY PRESSING 2"          
+      } else {
+        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+      }
+    }
+  }
+  
+  def goWritingProblem2(str: String, switch: Boolean) = {
+    mainFrame.text = ("Write the following word: A€]@)#*^`'")
+    output.text = "";
+    if (switch) {
+      0
+    } else {
+      if ( str == "A€]@)#*^`'" ) {
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE OTHER PROBLEM BY PRESSING 1"          
+      } else {
+        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+      }
+    }
+  }
+  
+  
+  
+}

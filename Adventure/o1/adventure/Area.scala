@@ -1,5 +1,6 @@
 package o1.adventure
 
+import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.Map
 
 /** The class `Area` represents locations in a text adventure game world. A game world
@@ -12,7 +13,7 @@ import scala.collection.mutable.Map
 class Area(var name: String, var description: String) {
 
   private val neighbors = Map[String, Area]()
-  private val allItems = Map[String, Item]()
+  var allItems: ArrayBuffer[(String, Item)] = ArrayBuffer()
 
   /** Returns the area that can be reached from this area by moving in the given direction. The result
     * is returned in an `Option`; `None` is returned if there is no exit in the given direction. */
@@ -23,12 +24,22 @@ class Area(var name: String, var description: String) {
     allItems += addedItem
   }
   
+  def addItems(items: Vector[Item]): Unit = {
+    for ( item <- items) {
+      val addedItem = (item.name, item)
+      allItems += addedItem
+      println(item.name)
+    }
+  }
+  
   def removeItem(itemName: String): Option[Item] = {
-    if (allItems.get(itemName).isEmpty) {
+    if (allItems.isEmpty) {
       None 
     } else {
-      allItems.remove(itemName)
-    }
+      val ret = allItems.head._2
+      allItems = allItems.tail
+      Some(ret)      
+    }    
   }
   
   /** Adds an exit from this area to the given area. The neighboring area is reached by moving in
@@ -46,7 +57,9 @@ class Area(var name: String, var description: String) {
     this.neighbors ++= exits
   }
 
-  def contains(itemName: String) = this.allItems.contains(itemName)
+  def contains(itemName: String) = {
+    this.allItems.contains(itemName)
+  }
   
   /** Returns a multi-line description of the area as a player sees it. This includes a basic
     * description of the area as well as information about exits and items. The return
@@ -54,8 +67,8 @@ class Area(var name: String, var description: String) {
     * The directions are listed in an arbitrary order. */
  def fullDescription = {
     val exitList = "\n\nExits available: " + this.neighbors.keys.mkString(" ")
-    var list = "\nYou see here: " + allItems.keys.mkString(" ")
-    if (!allItems.isEmpty) {		
+    var list = "\nYou see here: " + allItems.map(_._2).mkString(" ")
+    if (!allItems.isEmpty) {
 		  this.description + list + exitList 
 	  } else {
 		  this.description + exitList 

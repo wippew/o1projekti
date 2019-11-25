@@ -1,6 +1,7 @@
 package o1.adventure
 
 import scala.collection.mutable.Map
+import scala.collection.mutable.ArrayBuffer
 
 
 /** A `Player` object represents a player character controlled by the real-life user of the program.
@@ -11,28 +12,25 @@ import scala.collection.mutable.Map
 class Player(startingArea: Area) {
 
   private var currentLocation = startingArea        // gatherer: changes in relation to the previous location
-  private var quitCommandGiven = false              // one-way flag
   
-  private val inv = Map[String, Item]()
-
-
-  /** Determines if the player has indicated a desire to quit the game. */
-  def hasQuit = this.quitCommandGiven
+  private var inv = ArrayBuffer[(String, Item)]()
+  
+  //the main characters points
+  var points = 0
 
 
   /** Returns the current location of the player. */
   def location = this.currentLocation
-
-  def has(item: String) = inv.contains(item)
   
   def examine(item: String): String = {
-    var ret = "If you want to examine something, you need to pick it up first."
-    if (has(item)) {
-      val x = inv.get(item)
-      ret = "You look closely at the " + item + ".\n" + x.get.description
+    var ret = "If you want to examine your beer, you need to study to get some."
+    if (!inv.isEmpty) {
+      ret = "New unopened fresh beer"
     }
     ret
   }
+  
+  
   
   def setLocation(newLocation: Area) = currentLocation = newLocation
   
@@ -50,52 +48,56 @@ class Player(startingArea: Area) {
   }
   
   def get(item: String): String = {
-    var returnText = "There is no " + item + " here to pick up."
-    if (this.location.contains(item)) {
+    var returnText = "There is no " + item + " here to pick up. Your only option is to study..."
+    if (!this.location.allItems.isEmpty) {
       var a = this.location.removeItem(item)
       if (a.isDefined) {
-        var addMe = (a.get)
-        inv += (item -> addMe)
+        var addMe = a.get
+        val addedItem = (item, addMe)
+        inv += addedItem
       }
-      returnText = "You pick up the " + item + "."
+      returnText = "You grabbed a " + item + "."
     }
     returnText
   }
   
-  def drop(item: String): String = {
-    var ret = "You don't have that!"
-    if (inv.contains(item)) {
-      val dropped = inv.remove(item)
-      location.addItem(dropped.get)
-      ret = "You drop the " + item + "."
+  def drinkBeer(player: Player, wife: Player): String = {
+    var ret = ""
+    if (wife.location.name == "Kitchen" && player.location.name == "Kitchen" && !inv.isEmpty) {
+      ret = "Wife: NO YOU CANT DRINK BEER DURING THE DAY! YOU GET -4 POINTS"
+      points -= 4
+    } else if (!inv.isEmpty && player.location.name== "Kitchen") {
+      ret = "You get a nice mood boost, and hence 5 points"
+      points += 5
+      drop()
+    } else if (player.location.name == "Study room" && !inv.isEmpty) {
+      ret = "Go to the kitchen if you want to drink. Wet notebooks are not nice..." 
+    } else if (player.location.name == "Living room" && !inv.isEmpty) {
+      ret = "Go to the kitchen if you want to drink. It is far to risky here in the middle of the house..." 
+    } else {
+      ret = "You are out of beer. Better study for more beer"
     }
     ret
   }
   
-  // Returns list of inventory if non-empty
+  def drop(): String = {
+    var ret = "You don't have that!"
+    if (!inv.isEmpty) {
+      inv = inv.tail
+    }
+    ret
+  }
+  
+  //returns how many beers you have
   def inventory: String = {
     var ret = "You are empty-handed."
     if (!inv.isEmpty) {
-      val list = inv.keys.mkString("\n")
-      ret= "You are carrying:\n" + list
+      println("invsize: " + inv.size)
+      ret= "You are carrying:\n" + inv.size + " X BEERS"
     }
     ret 
   }
 
-
-  /** Causes the player to rest for a short while (this has no substantial effect in game terms).
-    * Returns a description of what happened. */
-  def rest() = {
-    "You rest for a while. Better get a move on, though."
-  }
-
-
-  /** Signals that the player wants to quit the game. Returns a description of what happened within
-    * the game as a result (which is the empty string, in this case). */
-  def quit() = {
-    this.quitCommandGiven = true
-    ""
-  }
 
 
   /** Returns a brief description of the player's state, for debugging purposes. */

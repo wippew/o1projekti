@@ -1,0 +1,57 @@
+
+package o1.adventure
+
+
+/** The class `Adventure` represents text adventure games. An adventure consists of a player and
+  * a number of areas that make up the game world. It provides methods for playing the game one
+  * turn at a time and for checking the state of the game.
+  *
+  * N.B. This version of the class has a lot of "hard-coded" information which pertain to a very
+  * specific adventure game that involves a small trip through a twisted forest. All newly created
+  * instances of class `Adventure` are identical to each other. To create other kinds of adventure
+  * games, you will need to modify or replace the source code of this class. */
+class Adventure {
+
+  val livingRoom = new LivingRoom("Living room", "Chilling at home. What do you want to do?")
+  val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths? \n For studying writing type w, for studying maths type m")
+  val kitchen = new Kitchen("Kitchen", "Want to do the dishes? Or open the cabinet to get a bottle of beer?")
+  
+  livingRoom.setNeighbors(Vector("north" -> studyRoom, "east" -> kitchen))
+  studyRoom.setNeighbors(Vector("south" -> livingRoom))
+  kitchen.setNeighbors(Vector("west" -> livingRoom))
+  
+  def addBeers(count: Integer) = {
+    var vector: Vector[Item] = Vector()
+    for (beer <- 0 until count) {
+      vector = vector :+ new Item("Beer", "A refreshing beer")
+    }
+    kitchen.addItems(vector)
+    println(kitchen.allItems.keys.mkString(" "))
+  }
+  
+  /** The character that the player controls in the game. */
+  val player = new Player(livingRoom)
+  val wife = new Player(randomizeLocation)
+
+  
+  def randomizeLocation(): Area = {
+    val i = scala.util.Random.nextInt(3)
+    i match {
+      case 0 => return studyRoom
+      case 1 => return livingRoom
+      case 2 => return kitchen
+    }
+  }
+
+  /** Plays a turn by executing the given in-game command, such as "go west". Returns a textual
+    * report of what happened, or an error message if the command was unknown. In the latter
+    * case, no turns elapse. */
+  def playTurn(command: String) = {
+    val action = new Action(command)
+    val outcomeReport = action.execute(this.player)
+    outcomeReport.getOrElse("Unknown command: \"" + command + "\".")
+  }
+
+
+}
+
