@@ -68,7 +68,7 @@ object AdventureGUI extends SimpleSwingApplication {
       layout += new Label("Output:")   ->                          new Constraints(0, 3, 1, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
       layout += mainFrame           ->                             new Constraints(1, 0, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
       layout += input                  ->                          new Constraints(1, 1, 1, 1, 1, 0, NorthWest.id, Fill.None.id, new Insets(5, 5, 5, 5), 0, 0)
-      layout += availableExits      ->                          new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
+      layout += availableExits      ->                             new Constraints(1, 2, 1, 1, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
       layout += output                 ->                          new Constraints(1, 3, 1, 2, 1, 1, NorthWest.id, Fill.Both.id, new Insets(5, 5, 5, 5), 0, 0)
       layout += turnCounter            ->                          new Constraints(0, 5, 2, 1, 0, 0, NorthWest.id, Fill.None.id, new Insets(8, 5, 5, 5), 0, 0)
     }
@@ -99,12 +99,12 @@ object AdventureGUI extends SimpleSwingApplication {
       val livingRoom = game.livingRoom
       if (player.location.name == "Home") {
         livingRoom.handleLivingRoom(command, outcomeReport, studyRoom, mainFrame, output, availableExits, player)
+        title = "Living room"
       } else if (player.location.name == "Study room") {        
         studyRoom.handleStudyRoom(str, command, outcomeReport, mainFrame, output, availableExits, player)
-        title = "You entered the study room"
+        title = "Study room"
       }
-    }
-    
+    }    
     
     private def getAvailableExits(): String = {
       return player.location.getNeighbors()
