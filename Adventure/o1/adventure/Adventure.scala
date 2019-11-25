@@ -12,16 +12,14 @@ package o1.adventure
   * games, you will need to modify or replace the source code of this class. */
 class Adventure {
 
-  val home = new Area("Home", "Chilling at home. What do you want to do?")
+  val livingRoom = new LivingRoom("Home", "Chilling at home. What do you want to do?")
   val studyRoom = new StudyRoom("Study room", "Do you want to study writing or maths? \n For studying writing type w, for studying maths type m")
   
-  home.setNeighbors(Vector("north" -> studyRoom))
-  studyRoom.setNeighbors(Vector("south" -> home))
-
-
+  livingRoom.setNeighbors(Vector("north" -> studyRoom))
+  studyRoom.setNeighbors(Vector("south" -> livingRoom))
 
   /** The character that the player controls in the game. */
-  val player = new Player(home)
+  val player = new Player(livingRoom)
 
   /** The number of turns that have passed since the start of the game. */
   var turnCount = 0
