@@ -98,48 +98,151 @@ object AdventureGUI extends SimpleSwingApplication {
     this.turnCounter.text = "turnCOunterTExt"
 
     def playTurn(command: String) = {
-      var str = command.toLowerCase().trim().replaceAll("\\s", "")
-      game.playTurn(command)
+      val str = command.toLowerCase().trim().replaceAll("\\s", "")
+      val outcomeReport = game.playTurn(command)
       if (player.location.name == "Home") {
-        handleHome(command)
+        handleHome(command, outcomeReport)
       } else if (player.location.name == "Study room") {
-        handleStudyRoom(str, command)
+        handleStudyRoom(str, command, outcomeReport)
       }
     }
     
-    private def handleHome(command: String) = {
-      game.playTurn(command)
+    private def handleHome(command: String, outcomeReport: String) = {
+      setStudyRoomBooleansToDefault()
       availableExits.text = getAvailableExits()
       mainFrame.text = player.location.getText()
-      println(player.location.name)
+      output.text = outcomeReport
     }
     
-    private def handleStudyRoom(str: String, command: String) = {
-      val mathTask = new MathTasks(mainFrame, output)
+    //study room booleans to control the right messages
+    var studyingMaths = false
+    var mathTaskChosen = false
+    var studyingWriting = false
+    var writingTaskChosen = false
+    private def handleStudyRoom(str: String, command: String, outcomeReport: String) = { 
+      if ( str == "m" || studyingMaths) {
+        if(str == "write") {
+          switchToWriting()
+        } else if (!studyingMaths) {
+          refreshMaths()
+          output.text = ""          
+        } else if (!mathTaskChosen){          
+          chooseMathTask(str)          
+        } else {
+          testMathAnswer(str)            
+        }
+      } else if ( str == "w" || studyingWriting) {
+        if (str == "maths") {
+          switchToMaths()
+        } else if (!studyingWriting) {
+          refreshWriting()
+          
+          output.text = ""
+          studyingWriting = true
+        } else if (!writingTaskChosen) {
+          chooseWritingTask(str)
+        } else {
+          testWritingAnswer(command)          
+        }
+      } else {
+        this.mainFrame.text = "For studying writing type w, for studying maths type m"        
+        this.output.text = outcomeReport
+        this.availableExits.text = getAvailableExits
+      }
+    }
+    
+    private def switchToWriting() = {
+      output.text = "You switched to writing."
+      setStudyRoomBooleansToDefault()
+      refreshWriting()
+    }
+    
+    private def switchToMaths() = {
+      output.text = "You switched to maths."
+      setStudyRoomBooleansToDefault()
+      refreshMaths()
+    }
+    
+    private def setStudyRoomBooleansToDefault() = {
+      setMathBooleansToDefault()
+      setWritingBooleansToDefault()      
+    }
+    
+    private def setMathBooleansToDefault() = {
+      studyingMaths = false
+      mathTaskChosen = false
+    }
+    
+    private def setWritingBooleansToDefault() = {
+      studyingWriting = false
+      writingTaskChosen = false
+    }
+    
+    private def chooseWritingTask(str: String) = {
+      val writingTask = new WritingTasks(mainFrame, output)
+      writingTaskChosen = true
       str match {
-          case "m" => refreshMaths()
-          case "1" => mathTask.goToMathProblem1(0)
-          case "2" => mathTask.goToMathProblem2(0)
-          case "3" => mathTask.goToMathProblem3(0)
+          case "a" => writingTask.goToWritingProblem1(str, true)
+          case "b" => writingTask.goToWritingProblem2(str, true)
+          case _ => {
+          output.text = "The options are A,B and C..."
+          writingTaskChosen = false
+          }
+        }      
+    }
+    
+    private def testWritingAnswer(str: String) = {
+      val writingTask = new WritingTasks(mainFrame, output)
+      str match {
+          case "AbCd^" => writingTask.goToWritingProblem1(str, false)
+          case "A€]@)#*^`" => writingTask.goToWritingProblem2(str, false)
+          case _ => writingTask.goToLosePoint()
+        }
+      writingTaskChosen = false
+      refreshWriting()
+    }
+    
+    private def chooseMathTask(str: String) = {
+      val mathTask = new MathTasks(mainFrame, output)
+      mathTaskChosen = true
+      str match {
+        case "a" => mathTask.goToMathProblem1(0)
+        case "b" => mathTask.goToMathProblem2(0)
+        case "c" => mathTask.goToMathProblem3(0)
+        case _ => {
+          output.text = "The options are A,B and C..."
+          mathTaskChosen = false
+        }
+      }      
+    }
+    
+    private def testMathAnswer(str: String) = {
+     val mathTask = new MathTasks(mainFrame, output)
+     str match {
           case "10" => mathTask.goToMathProblem1(10)
           case "100000" => mathTask.goToMathProblem2(100000)
           case "-15" => mathTask.goToMathProblem3(-15)
-          case _ => {
-            this.mainFrame.text = "For studying writing type w, for studying maths type m"
-            this.output.text = "turnRepo"
-            this.availableExits.text = getAvailableExits
-      }
-          println(player.location.name)
+          case _ => mathTask.goToLosePoint()
+     }
+     mathTaskChosen = false
+     refreshMaths()
     }
-    }
-    
     
     
     private def refreshMaths() = {
       title = "The study room of maths"
       availableExits.text = getAvailableExits()
-      output.text = "You are about to get rekt"
-      mainFrame.text = "You are in the study room of maths, to solve problem 1 type 1, to solve problem 2 type 2 and for problem 3 type 3"
+      mainFrame.text = "You are in the study room of maths.\nTo solve problem 1 type A, to solve problem 2 type B and for problem 3 type C"
+      setWritingBooleansToDefault()
+      studyingMaths = true
+    }
+    
+    private def refreshWriting() = {
+      title = "The study room of writing"
+      availableExits.text = getAvailableExits()
+      mainFrame.text = "You are in the study room of writing.\nTo solve problem 1 type A, to solve problem 2 type B"
+      setMathBooleansToDefault()
+      studyingWriting = true
     }
     
     

@@ -66,7 +66,9 @@ class Area(var name: String, var description: String) {
     return this.neighbors.keys.mkString(" ")
   }
   
-  def getText(): String = ""
+  
+  //defaults to home unless another room overrides
+  def getText(): String = "You are in the livingroom, chillax and have some snacks"
 
 
   /** Returns a single-line description of the area for debugging purposes. */

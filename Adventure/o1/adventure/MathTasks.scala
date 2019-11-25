@@ -2,6 +2,7 @@ package o1.adventure
 import scala.swing.TextArea
 
 class MathTasks(mainFrame: TextArea, output: TextArea){
+  
   def goToMathProblem1(i: Int) = {
     mainFrame.text = ("Solve the equation 3 + 7")
     output.text = "";
@@ -9,9 +10,7 @@ class MathTasks(mainFrame: TextArea, output: TextArea){
       0
     } else {
       if ( i == 10 ) {
-        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 2 OR 3"          
-      } else {
-        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER B OR C.\nOr switch to writing by typing: write"          
       }
     }
   }
@@ -23,9 +22,7 @@ class MathTasks(mainFrame: TextArea, output: TextArea){
       0
     } else {
       if ( i == 100000 ) {
-        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 3"          
-      } else {
-        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR C.\nOr switch to writing by typing: write"          
       }
     }
   }
@@ -37,10 +34,12 @@ class MathTasks(mainFrame: TextArea, output: TextArea){
       0
     } else {
       if ( i == -15 ) {
-        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER 1 OR 2"          
-      } else {
-        output.text = "WRONG... I GOTTA GIVE YOU -1 POINT"
+        output.text = "CORRECT WELL DONE YOU GET 1 POINT!" + "\n" + "TRY THE TWO OTHER PROBLEMS BY PRESSING EITHER A OR B.\nOr switch to writing by typing: write"          
       }
     }
+  }
+  
+  def goToLosePoint() = {
+    output.text = "Wrong, -1 point...\nTry the same task again or switch to writing by typing: write"
   }
 }
